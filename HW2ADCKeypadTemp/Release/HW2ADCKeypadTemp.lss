@@ -1166,7 +1166,7 @@ Disassembly of section .text:
  960:	97 cf       	rjmp	.-210    	; 0x890 <__stack+0x31>
  962:	7c 01       	movw	r14, r24
  964:	b2 cf       	rjmp	.-156    	; 0x8ca <__stack+0x6b>
- 966:	8c 2d       	mov	r24, r12
+ 966:	8a e2       	ldi	r24, 0x2A	; 42
  968:	0e 94 00 03 	call	0x600	; 0x600 <LCD_WriteChar>
  96c:	e1 e0       	ldi	r30, 0x01	; 1
  96e:	f0 e0       	ldi	r31, 0x00	; 0

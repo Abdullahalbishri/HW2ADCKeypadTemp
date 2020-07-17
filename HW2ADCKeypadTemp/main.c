@@ -70,7 +70,7 @@
 			 }
 			 else 
 			 {
-			 LCD_WriteChar(value);
+			 LCD_WriteChar('*');
 			 Userinput[Index]=value;
 			 Index++;
 			 }
